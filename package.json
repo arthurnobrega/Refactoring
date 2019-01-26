@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Martin Fowler",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
