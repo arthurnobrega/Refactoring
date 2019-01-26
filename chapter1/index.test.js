@@ -1,8 +1,8 @@
-import invoices from "./invoices.json";
-import plays from "./plays.json";
-import { statement } from ".";
+import invoices from './invoices.json';
+import plays from './plays.json';
+import statement from '.';
 
-test("returns correct bill", () => {
+test('returns correct bill', () => {
   const bill = statement(invoices[0], plays);
 
   expect(bill).toEqualWithCompressedWhitespace(`
